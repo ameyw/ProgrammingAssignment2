@@ -1,4 +1,4 @@
-## Put comments here that give an overall description of what your
+## Creata a function to cache inversed matrix
 ## functions do
 
 ## Write a short comment describing this function
@@ -23,7 +23,7 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   m <- x$getmatrix()
   
-  if(!isnull(m)){
+  if(!is.null(m)){
     message("getting cached data")
     return(m)
   }
